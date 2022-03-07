@@ -10,7 +10,7 @@ describe '#string' do
   end
 end
 
-# "coDe"            "code"
+# "CODe             "CODE" 
 
 # Input            Outcomes
 # a string           a string
