@@ -8,6 +8,10 @@ describe '#string' do
   it 'it converts a string all to lower case characters ' do
     expect(string('coDe')).to eq 'code'
   end
+
+  it 'returns a string to upper case if there are more capital letters in it' do
+    expect(string('CODe')).to eq 'CODE'
+  end
 end
 
 # "CODe             "CODE" 
