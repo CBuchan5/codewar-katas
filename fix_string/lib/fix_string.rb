@@ -4,16 +4,7 @@ def string(characters)
     return characters.upcase
   else 
     return characters.downcase
-  # individual_letters = characters.split ('')
-  #   individual_letters.map do |letters|
-    
-  #     # need to count the characters somehow
-  #   if letters.count('letters'.upcase) > letters.count('letters'.downcase)
-  #     letters.upcase
-  # else
-  #     letters.downcase
-  #    end
-  #    return individual_letters.join
+ 
    end
   
    

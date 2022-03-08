@@ -12,6 +12,12 @@ describe '#string' do
   it 'returns a string to upper case if there are more capital letters in it' do
     expect(string('CODe')).to eq 'CODE'
   end
+
+  it 'returns a string to lower case if the string has equal upper and lower case letters' do
+    expect(string('coDE')).to eq 'code'
+  end
+
+  #"coDE             "code"
 end
 
 # "CODe             "CODE" 
