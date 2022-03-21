@@ -9,5 +9,7 @@ describe 'liked_array' do
     expect(liked_array([])).to eq ("no one likes this")
   end
 
-  # it
+  it 'returns the name of the person who liked the post' do
+    expect(liked_array(["Peter"])).to eq ("Peter likes this")
+  end
 end
