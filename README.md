@@ -29,6 +29,7 @@ Implement the function which takes an array containing the names of people that 
 
 ```
 Input                               Outputs
+ []                                  []
  []                                  "no one likes this"
  ["Peter"]                           "Peter likes this"
  ["Jacob", "Alex"]                   "Jacob and Alex like this"
