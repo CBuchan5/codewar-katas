@@ -1,3 +1,5 @@
 def liked_array(likes)
-  return []
+  if likes = []
+  return "no one likes this"
+  end
 end
