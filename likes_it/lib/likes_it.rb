@@ -3,8 +3,9 @@ def liked_array(likes)
     return "no one likes this"
     
   else 
-
-    return "Peter likes this"
+    likes.length == 1
+  
+    return "#{likes[0]} likes this"
 
   end 
   
