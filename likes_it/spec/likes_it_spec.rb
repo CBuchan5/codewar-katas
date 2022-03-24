@@ -18,8 +18,10 @@ describe 'liked_array' do
   end
   
   it 'returns the first two names and count who else likes the post' do
-    expect(liked_array(["Alex", "Jacob", "Mark", "Max"]).to eq ("Alex, Jacob and 2 others like this")
+    expect(liked_array(['Max', 'John', 'Mark'])).to eq ("Max, John and Mark like this")
   end
 
-  # ["Alex", "Jacob", "Mark", "Max"]    "Alex, Jacob and 2 others like this" 
+  it 'returns the first two names and count who else likes the post' do
+    expect(liked_array(["Alex", "Jacob", "Mark", "Max"])).to eq ("Alex, Jacob and 2 others like this")
+  end
 end
