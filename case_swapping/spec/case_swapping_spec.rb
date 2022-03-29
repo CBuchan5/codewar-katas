@@ -21,4 +21,7 @@ describe '#case_swapping' do
     expect(case_swapping("CodeWars")).to eq  "cODEwARS"
   end
 
+  it 'will ignore numbers' do 
+    expect(case_swapping("123235")).to eq "123235"
+  end
 end
