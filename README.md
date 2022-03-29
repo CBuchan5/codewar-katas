@@ -38,3 +38,17 @@ Input                               Outputs
 
  Note: For 4 or more names, the number in "and 2 others" simply increases.
 ```
+
+## Case swapping - 7kyu (case_swapping)
+Kata link: https://www.codewars.com/kata/5590961e6620c0825000008f/train/ruby
+
+Given a string made of digits [0-9], return a string where each digit is repeated a number of times equals to its value.
+
+```
+Input             Outputs
+""                ""
+"abc"             "ABC"
+"ABC"             "abc"
+"CodeWars"        "cODEwARS"
+"123235"          "123235"
+```
