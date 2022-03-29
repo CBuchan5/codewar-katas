@@ -1,3 +1,5 @@
 def case_swapping(string)
-  string = ""
+  if string.downcase 
+    return string.upcase
+  end
 end
