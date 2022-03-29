@@ -12,4 +12,13 @@ describe '#case_swapping' do
   it 'swap an upper case letter to a down case one' do
     expect(case_swapping("A")).to eq "a"
   end
+
+  it 'swap letter styles' do
+    expect(case_swapping("abc")).to eq "ABC"
+  end
+
+  it ' will swap all down case letters to upper ones and vice versa' do
+    expect(case_swapping("CodeWars")).to eq  "cODEwARS"
+  end
+
 end

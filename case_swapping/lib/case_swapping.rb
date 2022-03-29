@@ -1,7 +1,11 @@
 def case_swapping(string)
-  if string == string.downcase 
-   return string.upcase
+  new_string = string.split(//).map do |char|
+    if char == char.downcase 
+      char.upcase
 
-  else string.downcase
+    else 
+      char.downcase
+    end 
   end
+new_string.join('')
 end
