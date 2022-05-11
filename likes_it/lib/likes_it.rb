@@ -3,12 +3,8 @@ def liked_array(likes)
     return "no one likes this"
 
   elsif 
-    likes.length >= 5
-    return "#{likes[0]}, #{likes[1]} and #{likes.count[2] + 2} others like this"
-
-  elsif 
-    likes.length == 4
-    return "#{likes[0]}, #{likes[1]} and #{likes.length[2] + 1} others like this"
+    likes.length > 3
+    return "#{likes[0]}, #{likes[1]} and #{likes.length - 2} others like this"
      
   elsif 
     likes.length == 3
@@ -26,3 +22,8 @@ def liked_array(likes)
   end 
   
 end
+
+# Need to itterate over the array
+# Need to count the elements
+# Then if 
+#
