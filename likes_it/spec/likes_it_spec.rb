@@ -28,4 +28,8 @@ describe 'liked_array' do
   it 'returns the first two names and count who else likes the post' do
     expect(liked_array(["Alex", "Jacob", "Mark", "Max", "Lucy"])).to eq ("Alex, Jacob and 3 others like this")
   end
+
+  it 'returns the first two names and count who else likes the post' do
+    expect(liked_array(["Alex", "Jacob", "Mark", "Max", "Lucy", "Sarah", "Charlotte"])).to eq ("Alex, Jacob and 5 others like this")
+  end
 end
