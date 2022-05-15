@@ -1,0 +1,23 @@
+{
+  "name": "codewar-katas",
+  "version": "1.0.0",
+  "description": "A selection of Code Katas to help  me practise TDD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CBuchan5/codewar-katas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CBuchan5/codewar-katas/issues"
+  },
+  "homepage": "https://github.com/CBuchan5/codewar-katas#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
