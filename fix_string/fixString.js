@@ -1,5 +1,5 @@
-const fixString = () =>  {
-return "string"
+const fixString = (characters) =>  {
+return characters
 }
 
 
