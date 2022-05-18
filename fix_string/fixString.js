@@ -1,5 +1,5 @@
 const fixString = () =>  {
-return "a string"
+return "string"
 }
 
 
