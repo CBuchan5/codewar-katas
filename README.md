@@ -52,3 +52,18 @@ Input             Outputs
 "CodeWars"        "cODEwARS"
 "123235"          "123235"
 ```
+
+## Is the string uppercase? - 8kyu (capital_letter)
+Kata link: https://www.codewars.com/kata/56cd44e1aa4ac7879200010b/train/ruby
+
+Create a method to see whether the string is ALL CAPS
+
+```
+Input                        Outputs
+"c"                          False
+"C"                          True
+"hello I AM DONALD"          False
+"HELLO I AM DONALD"          True
+"ACSKLDFJSgSKLDFJSKLDFJ"     False
+"ACSKLDFJSGSKLDFJSKLDFJ"     True
+```
